@@ -1,9 +1,9 @@
 
-/* primeira forma*/
+/*Exemplo de CSS Externo*/
 body{
-    background-color: red;
+    background-color: rgb(68, 196, 255);
 }
 
 ul{
-    background-color: yellow;
+    background-color: rgb(66, 141, 253);
 }
