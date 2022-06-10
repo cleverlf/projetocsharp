@@ -1,9 +1,21 @@
 
 /*Exemplo de CSS Externo*/
 body{
-    background-color: rgb(68, 196, 255);
+    background-color: rgb(70, 200, 250);
 }
 
 ul{
-    background-color: rgb(66, 141, 253);
+    background-color: rgb(10, 100, 200);    
+}
+
+li{
+    background-color: cornflowerblue;
+}
+
+li a{
+    background-color: rgb(2, 2, 31);
+}
+p{
+    text-align: center;
+    font-size: 17px;
 }
