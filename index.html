@@ -7,6 +7,12 @@
     <title>Caneca Nerd</title>
     <link rel="stylesheet" type="text/css" href="geral.css"/>
 
+    <script type="text/javascript" src="Blibliotecas/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="Plug-ins/coin-slider/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="Plug-ins/coin-slider/coin-slider-styles.css" type="text/css" />
+    
+
+
     <!--      Exemplo de CSS interno
     <style>
         /*ul{
@@ -23,51 +29,51 @@
         </div>
         <div id="busca">
             <!--<form method=GET action='https://www.google.com/search' target='_blank' >-->
-            <form action="#" method="post">
+            <form action="#" method="post" >
                 <input type='text' name='q'>
-                <input type='submit' value='search' >
+                <input type='submit' value="Search">
             </form>
         </div>  
         <nav>
             <ul>
-                <li><a href="index.html">Inicio<img src="imagens/home_house_icon.png" width="18" height="17"></a></li>           
-                <li><a href="produtos.html">Produtos<img src="imagens/basket-buy-market.png" width="18" height="17"></a></li>
-                <li><a href="faleconosco.html">Fale Conosco<img src="imagens/talk.png" width="18" height="17"></a></li>
-                <li><a href="instagram.html">Instagram<img src="imagens/instagram_icon.png" width="18" height="17"></a></li>
+                <li><a href="index.html">Inicio<img src="imagens/home_house_icon.png" ></a></li>           
+                <li><a href="produtos.html">Produtos<img src="imagens/basket-buy-market.png" ></a></li>
+                <li><a href="faleconosco.html">Fale Conosco<img src="imagens/talk.png" ></a></li>
+                <li><a href="instagram.html">Instagram<img src="imagens/instagram_icon.png" ></a></li>
                 
             </ul>
         </nav>
-
     </div>
     
+    <main>
 
-    <div id="principal">
-        <p>
-        <strong>Objetivos:</strong>
-        <em>Aplicar conhecimentos do curso de <strong>Desenvolvedor C#</strong></em>
-        </p>
-        <!--Exemplo de CSS inline-->
-        <p>  
+        <div id='coin-slider'>
+            <a href="imagens/Cups_and_Mugs/Caneca_Batman_DC.png" target="_blank">
+                <img src="imagens/Cups_and_Mugs/Caneca_Batman_DC.png" >
+                <span>
+                    Caneca Batman
+                </span>
+            </a>            
+            <a href="imagens/Cups_and_Mugs/No_coffee_no_forcee.png" target="_blank">
+                <img src="imagens/Cups_and_Mugs/No_coffee_no_forcee.png" >
+                <span>
+                    No Coffee no Forcee
+                </span>
+            </a>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#coin-slider').coinslider();
+            });
+        </script>
 
-            Projeto Escola IA - será desenvolvido pelos alunos do SENAI Brasília,
-            do curso de Desenvolvedor C# nesse projeto os alunos terão a 
-            oportunidade de mostrar competências técnicas no desenvolvimento FULLSTACK.   
-
-        </p>
-
-        <p>
-
-            O Senai Brasília fica localizado na capital federal,
-            próximo aos grandes poderes do nosso país.      
-
-        </p>
-        <p>
-            A Equipe é formada por professores, alunos especialistas e profissionais do mercado local.
-        </p>
-    </div>
+    </main>       
+           
+        
 
     <div id="rodape">
         Caneca Nerd &copy;
     </div>
+    
 </body>
 </html>
